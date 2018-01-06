@@ -904,16 +904,6 @@ footer {
   z-index: -1;
 }
 
-#button-1, #button-2, #learn-more-1, #learn-more-2, #learn-more-3, #learn-more-4 {
-	border: 3px solid #c53499;
-	border-radius: 0;
-  color: #c53499;
-	font-size: 1.1em;
-	font-weight: 400;
-  background-color: transparent;
-	font-family: 'Pontano Sans', sans-serif;
-}
-
 .home-content h3 {
 	font-family: 'News Cycle', sans-serif;
 	font-size: 1.5em;
@@ -928,6 +918,47 @@ footer {
 .online-container {
 	padding: 2% 0;
   background-color: #ffe6fcba;
+}
+
+/*===========HOME AND SERVICE BUTTONS=============*/
+#button-1, #button-2, #learn-more-1, #learn-more-2, #learn-more-3, #learn-more-4 {
+	border: 3px solid #c53499;
+	border-radius: 0;
+  color: #c53499;
+	font-size: 1.1em;
+	font-weight: 400;
+  background-color: transparent;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+#button-1:hover, #button-1:focus, #button-1:active {
+	background-color: #c53499;
+	color: #fff;
+}
+
+#button-2:hover, #button-2:focus, #button-2:active {
+	background-color: #c53499;
+	color: #fff;
+}
+
+#learn-more-1:hover, #learn-more-1:focus, #learn-more-1:active {
+	background-color: #c53499;
+	color: #fff;
+}
+
+#learn-more-2:hover, #learn-more-2:focus, #learn-more-2:active {
+	background-color: #c53499;
+	color: #fff;
+}
+
+#learn-more-3:hover, #learn-more-3:focus, #learn-more-3:active {
+	background-color: #c53499;
+	color: #fff;
+}
+
+#learn-more-4:hover, #learn-more-4:focus, #learn-more-4:active {
+	background-color: #c53499;
+	color: #fff;
 }
 
 /*=======SERVICES mobile==============*/
@@ -999,7 +1030,7 @@ footer {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-color: #40404040;
+	  background-color: #4040400f;
 	  width: 100%;
 		padding: 1px;
 	  z-index: -1;
@@ -1111,6 +1142,44 @@ footer {
 	background-color: #c53499;
 }
 
+.more {
+	  background-position: center;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-color: #c5349903;
+	  width: 100%;
+		padding: 1px;
+		margin-bottom: -45px;
+	  z-index: -1;
+}
+
+.more-button {
+	display: block;
+}
+
+
+#m-1, #m-2 {
+	border: 3px solid #fff;
+	border-radius: 0;
+  color: #fff;
+	font-size: 1.1em;
+	font-weight: 700;
+  background-color: #c53499;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+#m-1:hover, #m-1:focus, #m-1:active {
+	background-color: #fff;
+	color: #c53499;
+	border-color: #c53499;
+}
+
+#m-2:hover, #m-2:focus, #m-2:active {
+	background-color: #fff;
+	color: #c53499;
+	border-color: #c53499;
+}
+
 @media screen and (min-width: 940px){
 	.self-img {
 	  background-position: center;
@@ -1170,6 +1239,10 @@ footer {
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
+	}
+
+	.more-button {
+		display: inline-block;
 	}
 
 }
